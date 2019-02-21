@@ -1,0 +1,29 @@
+package course;
+
+import javax.swing.JOptionPane;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+
+		
+	int n = Integer.parseInt(JOptionPane.showInputDialog("How many numbers are you going to type? "));
+	
+	while( n<=0 ) {
+		JOptionPane.showMessageDialog(null, "N must be positive! Try again:" + n);
+		n = Integer.parseInt(JOptionPane.showInputDialog("Enter a number integer: "));
+		
+	}//int nPositive = Integer.parseInt(JOptionPane.showInputDialog(null, "How many number you are digit? "));
+	
+	for (int i = 1; i<=n; i++) {
+		JOptionPane.showMessageDialog(null, "Value #" + i +": ");
+		
+		int x = Integer.parseInt(JOptionPane.showInputDialog(" "));
+		
+	}
+	
+	}
+	
+	
+}

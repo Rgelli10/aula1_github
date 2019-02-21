@@ -1,0 +1,24 @@
+package course;
+
+import javax.swing.JOptionPane;
+
+public class Program {
+
+	public static void main(String [] args) {
+	
+		int confirm;
+		
+		do {
+			 int user = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+			 double squarderaiz = Math.sqrt(user);
+			 
+			 JOptionPane.showMessageDialog(null, String.format( "Squarde Raiz is: %.2f" + squarderaiz));
+			 confirm = JOptionPane.showConfirmDialog(null, "You go digit many numbers?");
+			 
+		}while(confirm == 0);
+			
+		
+	}
+	
+	
+}

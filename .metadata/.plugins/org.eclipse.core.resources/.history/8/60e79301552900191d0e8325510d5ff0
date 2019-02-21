@@ -1,0 +1,17 @@
+package course;
+
+import javax.swing.JOptionPane;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		int i = 2;
+		
+		if(i>=12) {
+			JOptionPane.showMessageDialog(null, "Ricardo");
+		}
+
+	}
+
+}

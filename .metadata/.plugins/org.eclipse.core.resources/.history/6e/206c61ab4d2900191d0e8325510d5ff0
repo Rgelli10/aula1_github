@@ -1,0 +1,13 @@
+package course;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Object obj1 = true;
+		
+		System.out.println(obj1);
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package entities;
+
+public class Employee {
+
+	public String name;
+	public double grossSalary;
+	public double tax;
+	
+	
+	
+	public double netSalary () {
+		return 1000-grossSalary;
+	}
+	
+	public void increaseSalary(double p) {
+		p = (tax/100)*netSalary();
+	}
+	
+
+}

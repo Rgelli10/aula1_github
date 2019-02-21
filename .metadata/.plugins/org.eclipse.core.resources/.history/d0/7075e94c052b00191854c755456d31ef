@@ -1,0 +1,35 @@
+package application;
+
+import javax.swing.JOptionPane;
+
+import entities.Employee;
+
+public class Program4 {
+
+	public static void main(String[] args) {
+		
+		Employee emp = new Employee();
+		
+		emp.name = JOptionPane.showInputDialog("What's your name? ");
+		emp.grossSalary = Integer.parseInt(JOptionPane.showInputDialog("Insert your salary: "));
+		
+		emp.netSalary();
+		
+		JOptionPane.showMessageDialog(null, "Employee: "
+		+ emp.name + ", "
+		+ "$, " + emp.grossSalary);
+		
+		emp.tax = Integer.parseInt(JOptionPane.showInputDialog("Whitch percebtage to increase salary? "));
+		
+		double p = emp.tax;
+		
+		emp.increaseSalary(p);
+		
+		JOptionPane.showMessageDialog(null, "Upadate data: "
+		+ emp.name
+		+ emp.grossSalary);
+		
+		
+	}
+
+}

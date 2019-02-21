@@ -1,0 +1,11 @@
+package entities;
+
+public class Pension {
+	
+	String name;
+	String eMail;
+	double price;
+	
+	
+
+}

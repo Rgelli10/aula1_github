@@ -1,0 +1,38 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+public class Program16 {
+
+	public static void main(String[] args) {
+
+		List <Integer> list = new ArrayList<>();
+		
+		int n = Integer.parseInt(JOptionPane.showInputDialog(""));
+		int m = Integer.parseInt(JOptionPane.showInputDialog(""));
+
+		int[][] mat = new int[n][m];
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < m; j++) {
+				mat[i][j] = Integer.parseInt(JOptionPane.showInputDialog(null, ""));
+			}
+
+		}
+
+		JOptionPane.showMessageDialog(null, "Index of Bob: " + list.indexOf(8));
+	}
+
+}
+
+
+
+
+/*for (int i = 0; i < n; i++) {
+for (int j = 0; j < m; j++) {
+	JOptionPane.showMessageDialog(null, mat[0][1]);
+}
+}*/

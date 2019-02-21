@@ -1,0 +1,20 @@
+package course;
+
+import javax.swing.JOptionPane;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		
+		int userDigit = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+	
+	while(userDigit >0) {
+		userDigit = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+	}
+			
+	
+	}
+	
+	
+}

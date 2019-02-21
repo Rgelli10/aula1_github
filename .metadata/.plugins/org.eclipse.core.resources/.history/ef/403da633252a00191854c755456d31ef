@@ -1,0 +1,26 @@
+package course;
+
+import javax.swing.JOptionPane;
+
+public class Program {
+
+	public static void main(String [] args) {
+	
+		int user;
+		int confirm;
+		
+		do {
+			 user = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+			 
+			 confirm = JOptionPane.showConfirmDialog(null, "You go digit many numbers?");
+			 
+		}while(confirm == 0);
+		
+		JOptionPane.showMessageDialog(null, "Number user is: " + user);
+			
+		
+		
+	}
+	
+	
+}

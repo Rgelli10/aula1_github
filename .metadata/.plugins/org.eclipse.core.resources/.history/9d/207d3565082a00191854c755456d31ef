@@ -1,0 +1,21 @@
+package course;
+
+import javax.swing.JOptionPane;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		int userDigit = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+		double raizQuadrada = userDigit*3.14;
+	
+	while(userDigit >0) {
+		JOptionPane.showMessageDialog(null, "The Quadrade Raiz is: " + raizQuadrada);
+		userDigit = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+	}JOptionPane.showMessageDialog(null, "Negative Number.");
+			
+	
+	}
+	
+	
+}

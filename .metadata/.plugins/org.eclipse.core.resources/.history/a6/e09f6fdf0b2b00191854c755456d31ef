@@ -1,0 +1,21 @@
+package entities;
+
+public class Employee {
+
+	public String name;
+	public double grossSalary;
+	public double tax;
+	
+	
+	
+	public double netSalary () {
+		return   ((tax/100)*netSalary()) + netSalary();//grossSalary -= 1000;
+	}
+	
+	public void increaseSalary(double p) {
+		p = ((tax/100)*netSalary()) + netSalary();
+		this.tax += p;
+	}
+	
+
+}

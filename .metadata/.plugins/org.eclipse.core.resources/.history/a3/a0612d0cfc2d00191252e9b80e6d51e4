@@ -1,0 +1,19 @@
+package util;
+
+public class CurrencyConverter {
+	
+	public static final double dollarPrice = 3.10;
+	
+	public static double value;
+	
+	public static double dollar(double v) {
+		return v = dollarPrice*value;
+					
+	}
+	
+	public static double finalValue (double d) {
+		return d = CurrencyConverter.dollar(d)*6/100;
+		
+	}
+
+}

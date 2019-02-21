@@ -1,0 +1,27 @@
+package entities;
+
+public class Triangule {
+	
+	public double width;
+	public double height;
+	
+	public double a;
+	public double b;
+
+	
+	public double area () {
+		double w = (a + b)/2.0;
+		return Math.sqrt(w * (w - a) * (w - b));
+	}
+	
+	public double perimeter() {
+		return (diagonal()+area())*2;
+		
+	}
+	
+	public double diagonal() {
+		double d = (a + b)*2;
+		return Math.sqrt(d*(d + a)*(d + b));
+	}
+
+}

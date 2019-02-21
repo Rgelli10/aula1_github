@@ -1,0 +1,29 @@
+package course;
+
+import javax.swing.JOptionPane;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+
+		
+		int n = Integer.parseInt(JOptionPane.showInputDialog("How many integer numbers are you goint to enter?"));
+		
+		int sum =0;
+	
+		for(int i = 1; i<=n; i++) {
+			
+			
+			JOptionPane.showMessageDialog(null, "value #" + i+ ": ");
+			
+			int x = Integer.parseInt(JOptionPane.showInputDialog(""));
+			sum += x;
+			
+		}
+			JOptionPane.showMessageDialog(null, "Sum = " + sum);
+	
+	}
+	
+	
+}

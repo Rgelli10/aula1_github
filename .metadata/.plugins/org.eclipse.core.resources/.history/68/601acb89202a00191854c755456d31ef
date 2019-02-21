@@ -1,0 +1,36 @@
+package course;
+
+import javax.swing.JOptionPane;
+
+public class Program {
+
+	public static void main(String [] args) {
+		
+		int y = 0;
+		int x = 0;
+		int result = x;
+		int result2 = y;
+		
+		
+	int n = Integer.parseInt(JOptionPane.showInputDialog("How many numbers are you going to type? "));
+	
+	while( n<=0 ) {
+		JOptionPane.showMessageDialog(null, "N must be positive! Try again:" + n);
+		n = Integer.parseInt(JOptionPane.showInputDialog("Enter a number integer: "));
+		
+	}
+	
+	for (int i = 1; i<=n; i++) {
+		JOptionPane.showMessageDialog(null, "Value #" + i +": ");
+		
+		 x = Integer.parseInt(JOptionPane.showInputDialog(" "));
+		 y = Integer.parseInt(JOptionPane.showInputDialog(" "));
+		 
+		 
+	}
+	
+	JOptionPane.showMessageDialog(null, "Higher is: " + result + result2);
+	}
+	
+	
+}

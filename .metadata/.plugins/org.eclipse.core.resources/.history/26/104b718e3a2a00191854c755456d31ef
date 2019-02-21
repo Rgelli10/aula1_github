@@ -1,0 +1,37 @@
+package application;
+
+import javax.swing.JOptionPane;
+
+import entities.Triangle;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Triangle x = new Triangle ();
+		Triangle y = new Triangle ();
+		
+		
+		x.a = Integer.parseInt(JOptionPane.showInputDialog("Enter the measures of triangle X: "));
+		x.b = Integer.parseInt(JOptionPane.showInputDialog("Enter the measures of triangle X: "));
+		x.c = Integer.parseInt(JOptionPane.showInputDialog("Enter the measures of triangle X: "));
+		
+		y.a = Integer.parseInt(JOptionPane.showInputDialog("Enter the measures of triangle Y: "));
+		y.b = Integer.parseInt(JOptionPane.showInputDialog("Enter the measures of triangle Y: "));
+		y.c = Integer.parseInt(JOptionPane.showInputDialog("Enter the measures of triangle Y: "));
+		
+		double p = (x.a + x.b + x.c)/2.0;
+		
+		double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
+		double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+		
+		JOptionPane.showMessageDialog(null, String.format(" Triangle X area: %.4f", areaX));
+		JOptionPane.showMessageDialog(null, String.format(" Triangle Y area: %.4f", areaY));
+		
+		if(areaX>areaY) {
+			JOptionPane.showMessageDialog(null, "Langer area: X " );
+		}else
+			JOptionPane.showMessageDialog(null, "Langer area: Y " );
+	}
+
+}
