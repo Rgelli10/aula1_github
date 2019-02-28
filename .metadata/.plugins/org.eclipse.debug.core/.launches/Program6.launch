@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Aulas/src/application/Program6.java"/>
+<listEntry value="/Calculator/src/application/Program6.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="application.Program6"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Aulas"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Calculator"/>
 </launchConfiguration>

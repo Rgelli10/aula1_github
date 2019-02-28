@@ -1,9 +1,0 @@
-package util;
-
-public class Account {
-
-	private int number;
-	private String holding;
-	private 
-	
-}
