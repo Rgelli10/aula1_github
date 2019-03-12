@@ -40,7 +40,6 @@ public class Program {
 			else
 			reservation.updateDate(checkIn, checkOut);
 			JOptionPane.showMessageDialog(null, "Reservation: " + reservation);
-			
 		}
 		
 		
