@@ -45,8 +45,8 @@ public class Controllator extends Product {
 		}
 
 		for (Product prod : list) {
-			JOptionPane.showMessageDialog(null, "         PRICE TAGS: \n\n\n" + prod.priceTag());
+			 JOptionPane.showMessageDialog(null, "         PRICE TAGS: \n\n\n" + prod.priceTag());
+			
 		}
 	}
-
 }

@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.time.Instant"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="entities.BusinessAccount"/>
+<fullyQualifiedTypeName name="entities.SavingsAccount"/>
+<fullyQualifiedTypeName name="entities.OutsourceEmployee"/>
+<fullyQualifiedTypeName name="entities.Employee"/>
+<fullyQualifiedTypeName name="entities.ImportedProduct"/>
+<fullyQualifiedTypeName name="entities.UsedProduct"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="entities.Product"/>
+<fullyQualifiedTypeName name="entities.Controllator"/>
+<fullyQualifiedTypeName name="entities.Account"/>
+<fullyQualifiedTypeName name="entities.enuns.Color"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="entities.Shape"/>
+<fullyQualifiedTypeName name="entities.Rectangle"/>
+<fullyQualifiedTypeName name="entities.Circle"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="entities.Individual"/>
+<fullyQualifiedTypeName name="entities.LegalPerson"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutionException"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.ExceptionList"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="model.entities.Reservation"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="model.exception.DomainException"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>
