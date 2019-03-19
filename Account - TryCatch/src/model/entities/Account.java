@@ -72,10 +72,10 @@ public class Account {
 		if(withdrawLimit >= amount) {
 		balance -= amount;	
 		
-		}if(amount > withdrawLimit) {
+		}
+		else if(amount > withdrawLimit) {
 			throw new DomainException ("The amount exceeds withdraw limit. ");
 		}if (balance < amount) 
 			throw new DomainException ("Not enough balance ");
 		}
-	
 }
